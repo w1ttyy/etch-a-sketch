@@ -1,0 +1,25 @@
+  /* Pozadia – od najtmavšieho */
+  --color-bg-deep:     #11111b; /* body, okraje stránky */
+  --color-bg:          #1e1e2e; /* hlavné pozadie, header */
+  --color-surface:     #313244; /* karty, panel s nastaveniami */
+  --color-surface-2:   #45475a; /* hover na kartách, inputy */
+  --color-border:      #585b70; /* rámiky, oddeľovače */
+
+  /* Text */
+  --color-text:        #cdd6f4; /* hlavný text */
+  --color-text-muted:  #a6adc8; /* popisky, menej dôležitý text */
+  --color-text-faint:  #6c7086; /* placeholdery, disabled */
+
+  /* Akcenty – z gradientu v logu */
+  --color-accent-1:    #f38ba8; /* ružová – začiatok čiary */
+  --color-accent-mid:  #cba6f7; /* fialová – prechod medzi nimi */
+  --color-accent-2:    #89b4fa; /* modrá – koniec čiary, hlavné tlačidlá */
+  --color-accent-soft: #b4befe; /* levanduľová – hover na modrej */
+
+  /* Stavové farby (ak budeš potrebovať) */
+  --color-success:     #a6e3a1; /* zelená */
+  --color-warning:     #f9e2af; /* žltá */
+  --color-danger:      #f38ba8; /* tá istá ružová – napr. tlačidlo "Clear" */
+
+  /* Gradient z obrázkov */
+  --gradient-brand: linear-gradient(90deg, #f38ba8, #cba6f7, #89b4fa);
