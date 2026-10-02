@@ -1,10 +1,14 @@
 body {
-    font-family: "National Park", sans-serif;
-    margin: 0;
+  font-family: "National Park", sans-serif;
+  margin: 0;
+  background-color: #1e1e2e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header img {
-    width: 60px;
+    width: 55px;
     height: auto;
 }
 
@@ -13,7 +17,7 @@ header {
     background-color: #1e1e2e;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 75px;
     padding: 0px 10px;
 }
 
@@ -31,11 +35,11 @@ button{
 }
 
 .size{
-    padding: 20px;
-    background-color: #313244;
+    padding: 0px 20px;
+    background-color: #1e1e2e;
     color: #cdd6f4;
-    height: 60px;
-    border:#cdd6f4 solid 3px;
+    height: 55px;
+    border:#6c7086 solid 2px;
 }
 
 .hero {
@@ -75,6 +79,6 @@ footer {
 
 footer .by {
     color: #cdd6f4;
-    padding: 0px 10px;
-    font-size: 12px;
+    padding: 0px 5px;
+    font-size: 10px;
 }
